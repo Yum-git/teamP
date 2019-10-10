@@ -3,3 +3,4 @@ lang: Python
 
 ## member
 - yuta ito
+- yuma ota
