@@ -29,3 +29,6 @@ def goodbye():
     sys.exit()
 
 t1 = hello()
+print('操作説明')
+print('60秒待機：wait()')
+print('終了：goodbye()')
