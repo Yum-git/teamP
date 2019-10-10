@@ -2,6 +2,16 @@ import time
 import sys
 
 def hello():
+    import datetime
+    nTime = datetime.datetime.now()
+    print("名前を入力してください")
+    str = input()
+    if(nTime.hour<12):
+        print("おはようございます "+str)
+    elif(nTime.hour>12 and nTime.hour <18):
+        print("こんにちは "+str)
+    else :
+        print("こんばんわ "+str)
     return time.time()
     
 def wait():
@@ -19,9 +29,3 @@ def goodbye():
     sys.exit()
 
 t1 = hello()
-
-
-
-    
-  
-    
