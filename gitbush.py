@@ -1,9 +1,9 @@
+
 import time
+import sys
 
-
-def hello():    
+def hello():
     import datetime
-    t1 = time.time()
     nTime = datetime.datetime.now()
     print("名前を入力してください")
     str = input()
@@ -14,12 +14,20 @@ def hello():
     else :
         print("こんばんわ "+str)
         
-    pass
+    return time.time()
     
 def wait():
+    from time import sleep
+    print("please wait a minute");
+    sleep(60);
+    print("thanks");
     pass
     
 def goodbye():
-    pass
+    t2 = time.time()
+    print('Goodbye everyone')
+    print('経過時間:')
+    print(str(t2 - t1) + '秒')
+    sys.exit()
 
-hello()
+t1 = hello()
