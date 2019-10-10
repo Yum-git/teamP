@@ -2,5 +2,6 @@
 lang: Python
 
 ## member
+- ko yamashita
 - yuta ito
 - yuma ota
