@@ -1,4 +1,3 @@
-
 import time
 import sys
 
@@ -13,7 +12,6 @@ def hello():
         print("こんにちは "+str)
     else :
         print("こんばんわ "+str)
-        
     return time.time()
     
 def wait():
